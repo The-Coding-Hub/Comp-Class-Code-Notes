@@ -1,0 +1,40 @@
+PYTHON:
+
+Step 1 - Installing Python
+https://www.python.org/download/
+
+Step 2 - Install IDE (Integrated Development Enviroment)
+https://www.jetbrains.com/pycharm/
+
+Another Way:
+Install Anaconda
+https://www.anaconda.com/
+
+Variable:
+- A variable in programming is used to store data (values). 
+- A variable name consists of Alphabets (A - Z), Numbers (0 - 9) and Underscore (_).
+Ex: x = 10
+Here x is a Variable.
+- We can use underscore if we want to create a variables which consists of more than 2 words. 
+Ex: user_name = "Harry"
+
+Python Datatypes:
+1. String: String is a textual data surrounded by quotes ("" or '').
+2. Integer: Numeric Data.
+3. Float: Numeric Data.
+
+Python Literal or Constant:
+Literal is raw data used for representing fixed value.
+Ex: x = 25.23
+Here x - Variable, 25.23 - Literal
+
+Numeric Literal:
+Integer: Integers like: 2, 4
+Float: Decimals like 1.2, 3.4
+Complex Number: 1.5j, 2+3.5j
+
+The complex() function converts the real numbers to complex numbers.
+The real part can be accessed by using the function real() and imaginary part can be accessed by using the function imag()
+
+String Literals
+- It is a sequence of characters surrounded by quotes.

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML FORM</title>
+</head>
+<body>
+  <h1>HTML FORM</h1>
+  <form>
+    <!-- Input for First Name -->
+    First Name: <input type="text" name="fname" value="Enter first name:" size="15" maxlength="10">
+
+    <br><br>
+
+    <!-- Input for Second Name -->
+    Last Name: <input type="text" name="lname" placeholder="Enter last name:">
+
+    <br><br>
+
+    <!-- Input for Password -->
+    Password: <input type="password" name="password" placeholder="Password:" maxlength="10">
+
+    <br><br>
+
+    <!-- Input for Gender -->
+    Gender: <br>
+    Male: <input type="radio" checked name="gender">
+    Female: <input type="radio" disabled name="gender">
+
+    <br><br>
+
+    <!-- Input for Checkbox -->
+    <!-- The checkbox control is used to check multiple options from given checkboxes. -->
+    Qualification: <br>
+    <input type="checkbox" name="btech" value="B.Tech"> B.Tech
+    <input type="checkbox" name="mtech" value="M.Tech"> M.Tech
+    <input type="checkbox" name="phd" value="P.hd"> PhD
+
+    <br><br>
+
+    <!-- Input for E-Mail -->
+    <!-- E-Mail Control: It accepts only E-Mail value. This type is used for input field that should contain an E-Mail Address. -->
+    E-Mail: <input type="email" name="email" id="email" placeholder="Enter E-Mail here">
+
+    <br><br>
+
+    <!-- Input for URL -->
+    <!-- URL Control: It accepts only URL Value. This type is used for input fields that should contain a URL Address. It forces to enter only URL Addresses either https://www.google.com or https://google.com. -->
+    Portfolio URL: <input type="url" name="url" id="url" placeholder="Enter URL">
+
+    <br><br>
+
+    <!-- Input for Date -->
+    <!-- Date Control: It accepts the date. -->
+    Date: <input type="date" name="date" id="date">
+
+    <br><br>
+
+    <!-- Input for Telephone Number -->
+    Telephone Number: <input type="tel" name="tel" id="tel" maxlength="10">
+
+    <br><br>
+
+    <!-- Input for Week -->
+    <!-- Week Control: A date consisting of a year and a week encoded according to the standard ISO 8601. -->
+    Week Number: <input type="week" name="week" id="week">
+
+    <br><br>
+
+    <!-- Input for Time -->
+    <!-- A time (hour, minute, second) encoded according to ISO 8601. -->
+    Time: <input type="time" name="time" id="time">
+
+    <br><br>
+
+    <!-- Input for Month -->
+    Month: <input type="month" name="month" id="month">
+
+    <br><br>
+
+    <!-- Input for Local Date Time -->
+    <!-- Date Time Local: A date and time (year, month, day, hour, minute, second) encoded according to ISO 8601. -->
+    Local Date Time: <input type="datetime-local" name="dtl" id="dtl">
+
+    <br><br>
+
+    <!-- Input for Number -->
+    <!-- It accepts only Numerical Value. -->
+    Pincode: <input type="number" name="pincode" id="pincode">
+
+    <br><br>
+
+    <!-- Input for Range -->
+    <!-- The range type is used for input fiels that should contain a value from a range of a numbers. -->
+    Temperature: <input type="range" name="range" id="range" min="2" max="10">
+
+    <br><br>
+
+    <!-- Select Tag -->
+    <!-- The <select> element is used to create a dropdown list. It is used to collect User Input. The <option> tag inside it defines the available options dropdown list.  -->
+
+    <!-- Attributes:
+    1. autofocus: The autofocus attributes specifies that the dropdown list should automatically get focus when the page loads.
+    2. disabled: It specifies that the dropdown list should be disabled.
+    3. multiple: It specifies that multiple options can be selected at once. Hold down the Control (CTRL) button to select multiple options. (Name is specified for the server to recognise the correct option. It specifies the name for a dropdown list.)
+    4. required: For making it mandatory. -->
+    City Preference: <br>
+    <select name="citypref" required>
+      <option value="">None</option>
+      <option name="c1" id="c1">Rourkela</option>
+      <option name="c2" id="c2">Sambalpur</option>
+      <option name="c3" id="c3">Ranchi</option>
+    </select>
+
+    <br><br>
+
+    <!-- Input for Submit -->
+    <!-- It is used to define a submit button. It is used to submit all the user value to the form handler. -->
+    <input type="submit" value="Submit">
+
+    <br><br>
+
+    <!-- Input for Reset -->
+    <!-- It is used to reset all form values to its original values. -->
+    <input type="reset" value="Reset">
+
+    <br><br>
+
+    <!-- <form action="">
+    The action attribute defines the process to be performed on the form, when form is submitted. The action attribute value defines the web page where information proceed. -->
+
+    <!-- Method Attribute -->
+    <!-- It defines the HTTP Method which browser uses to submit the form. It has two values. GET and POST!
+    POST -> When we want to send any sensitive data, then post method does not show the data in the URL.
+    GET -> It shows the data in the URL after submitting the form. It is not secure. -->
+
+    <!-- Target Attribute -->
+    <!-- It defines where to open the response after submitting the form.
+    _self -> After submitting the form, the response will display in current page (<form target="_self">).
+    _blank -> After submitting the form, the response will display in new page (<form target="_blank">). -->
+  </form>
+</body>
+</html>

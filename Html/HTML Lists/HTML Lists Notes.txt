@@ -1,0 +1,39 @@
+HTML Lists
+
+- HTML Lists are used to specify lists of information.
+
+- All Lists may contain one or more list elements.
+
+- There are 3 different types of HTML Lists:
+  1. Ordered Lists
+  2. Unordered Lists
+  3. Description/Definition Lists
+
+- Ordered Lists
+  :- In the ordered lists, all the list items are   marked with numbers by default. 
+  :- It is known as numbered list also.
+  :- It is a Container Tag. The Ordered List starts   with OL Tag.
+  :- <OL>....</OL>
+  :- Each list item starts with the <LI> tag.
+  :- We can use ordered list to represent items       either in numerical order format or alphabetical    order format, or any format where an order is     emphasized.
+
+- There can be different types of numbered list:
+  1. Numeric Number (1, 2, 3...)
+  2. Capital Roman Number (I, II, III...)
+  3. Small Roman Number (i, ii, iii...)
+  4. Capital Alphabet (A, B, C...)
+  5. Small Alphabet (a, b, c...)
+
+- Attributes of <OL> Tag
+  Type:- The type attribute specifies the kind of marker to use in the list.
+  1. type="1": This is the default type. In this type, the list items are numbered with numbers.
+  2. type="I": In this type, the list items are numbered with Upper case Roman numbers.
+  3. type="i":  In this type, the list items are numbered with lower case Roman numbers.
+  4. type="A":  In this type, the list items are numbered with Upper case letters.
+  5. type="a":  In this type, the list items are numbered with lower case letters.
+
+  Start Attribute:- The start attribute is used with <OL> tag to specify from where to start the list items.
+
+  <OL type="A" start="5">: It will show capital alphabets starting with "E".
+  <OL type="a" start="5">: It will show small alphabets starting with "e".
+  <OL type="1" start="5">: It will show  numbers starting with 5.

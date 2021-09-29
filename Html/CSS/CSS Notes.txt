@@ -1,0 +1,135 @@
+Introduction to CSS :-
+
+-> It stands for Cascading Style Sheet. It is used to control the style of a web document in a simple and easy way.
+-> We can add the style sheet in three different ways:
+   i) External
+   ii) Internal
+   iii) Inline
+
+External CSS :-
+-> It is used when we want to make changes on multiple pages.
+-> It uses the <link> tag on every page and the <link> tag should be put inside the head section.
+
+HTML Code:
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Introduction to CSS</title>
+	<link rel="stylesheet" href="/css1.css">
+</head>
+<body>
+	<h1>Introduction to CSS</h1>
+</body>
+</html>
+
+CSS Code (File Name: css1.css):
+body {
+	background-color: purple;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+Internal CSS :-
+-> It is used to define a style for a single HTML page.
+-> It uses <style> tag within the head element.
+
+HTML Code:
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Internal CSS</title>
+
+	<style type="text/css">
+		body {
+			background-color: pink;
+		}
+		h1 {
+			color: white;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>Welcome to Internal CSS</h1>
+</body>
+</html>
+
+Inline CSS:
+-> It is used to apply a unique style to a single HTML tag or element.
+-> It uses style attribute.
+
+HTML Code:
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Inline CSS</title>
+</head>
+<body style="background-color: pink;">
+	<h1 style="color: white; text-align: center;">Welcome to Inline CSS</h1>
+</body>
+</html>
+
+CSS Syntax:
+h1 { color: red; text-align: center; }
+
+Property: color & text-align
+Value: red & center
+The part inside curly braces is called DECLARATION BOX.
+
+The selector indicates the HTML element. It could be any tag like body, h1, p or span.
+
+Property:
+The property is a type of attribute of a HTML element.
+
+Value: Values are assigned to CSS Properties.
+
+CSS Selectors:
+CSS Selectors are used to select the content we want to style.
+Types: 
+1) CSS Element Selector: The element selector selects the HTML element by name.
+
+2) CSS ID Selector: It selects the ID attribute of an HTML element to select a particle element. An ID is always unique within the page so it is chosen to select a single, unique element. It is written with the Hash Character (#), followed by the ID of an element.
+
+3) CSS Class Selector: The Class Selector selects HTML elements with a specific class. It is used with a period character (.) followed by the Class Name. A Class Name should not be started with a number i.e. 1para.
+
+4) CSS Universal Selector
+
+5) CSS Group Selector
+
+CSS Colors:
+1) Built-In Color
+2) RGB Format
+3) RGBA Format
+4) Hexadecimal Code
+5) HSL
+6) HSLA
+
+Built-In Color:
+-> As it's name implies, built in color means the collection of previously defined colors that are used by using a name such as Red, Green, Tomato etc.
+-> Ex:- style=background-color: tomato;
+
+RGB Format:
+-> It stands for "RED GREEN BLUE".
+R - 0 to 255
+G - 0 to 255
+B - 0 to 255
+-> The color values in this format are specified by using the rgb() function. This function allows three values that can be either be in percentage or integer (0 - 255).
+
+RGBA Format:
+-> It is similar to RGB format except that RGBA contains A(Alpha Value - Opacity/Transparency)
+-> Alpha Value ranging from 0.0 to 1.0
+0.0 - Transparent
+1.0 - Opaque
+
+HSL:
+-> It stands for "Hue Saturation Lightness".
+-> Hue: It can be defined as the degree on the color wheel from 0 to 360. 0 represents RED, 120 represents GREEN, 240 represents BLUE.
+-> Saturation: It takes value in percentage in which 100% represents fully saturated (No Gray Shade!, 50% represents 50% Grey, but the color is still visible and 0% represents fully unsaturated means completely grey and the color is invisible.)
+-> Lightness: It can be defined as the light that we want to provide the color. Here 0% means black (There is no light!), 50% represents neither dark nor light and 100% represents white (Full Lightness).
+-> By default Saturation and Lightness are 0%.
