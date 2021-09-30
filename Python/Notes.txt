@@ -1,4 +1,4 @@
-PYTHON:
+Introduction to PYTHON Programming:
 
 Step 1 - Installing Python
 https://www.python.org/download/
@@ -38,3 +38,45 @@ The real part can be accessed by using the function real() and imaginary part ca
 
 String Literals
 - It is a sequence of characters surrounded by quotes.
+- We can use single quotes, double quotes and triple quotes.
+- For Multiline Strings we use triple quotes(''' ''' or """ """).
+- a = "Hello"
+- b = 'World'
+- c = """
+      I
+      am a 
+      Disco 
+      Dancer
+      """
+
+Boolean Literals
+- There are two boolean literals True and False.
+- It is important to note that True and False are case sensitive.
+- Ex: p = True
+
+Comment in Python
+- The Python Interpreter ignores these lines.
+- The Hash(#) symbol is used to write a comment in Python.
+- Ex: a = 10 # 10 is stored in the variable 'a'
+- To add a Multiline Line Comment we can use a # for each line.
+- Ex: # I am a Disco Dancer
+      # Zindegi mera gaana, Mein Kisika Deewana
+- We can also use 3 triple quotes.
+Ex: ''' I am a Disco Dancer
+        Zindegi mera gaana, Mein Kisika Deewana '''
+
+PYTHON Input and Output
+- Python provides built-in functions that allows us to Output data and take input from user.
+- input() -> Input
+- print() -> Output
+- Ex:
+print("My Name is Khan")
+a = 5
+b = 6
+c = a + b
+print("The sum of a and b is", c)
+- To print more than one object at a time we separate them by commas.
+- Ex: print("My ", "name ", "is ", "DD ")
+
+Taking Input from the User
+- To take input from the user and store it in a variable, we use input() function.
