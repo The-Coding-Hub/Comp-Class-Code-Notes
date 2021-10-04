@@ -80,3 +80,41 @@ print("The sum of a and b is", c)
 
 Taking Input from the User
 - To take input from the user and store it in a variable, we use input() function.
+
+Typecasting in Python
+- The Process of converting one data type to another data type is called Type Casting.
+- 2 Types:
+  - Implicit Type Conversion
+  - Explicit Type Conversion
+- Implicit Conversion
+  - In Implicit Conversion, Python automatically converts one data type to another data type. 
+  - In this process no data is lost.
+  - Ex:
+  x = 100
+  y = 2.3
+  print(x + y) # Output: 102.3
+  - Here Python automatically converts 100 to Float (100.0) before addition. The Data Type os sum will also be Float. (100.0 + 2.3 = 102.3)
+- Explicit Conversion
+  - This conversion is done by the programmer.
+  - In this process data might be lost.
+  - Ex: On converting a float to integer the decimal part is lost.
+  - In this conversion, we can use predefined functions like int(), float() and str() etc. to convert one datatype to another datatype.
+  - Ex: 
+  # Example 1
+  p = 125.3
+  q = int(a)
+  print(b) # Output: 125 ( Float -> Integer )
+  # Example 2
+  c = 123
+  d = float(c)
+  print(d) # Output: 123.0 ( Integer -> Float )
+  - Ex:
+  country_name = 'INDIA'
+  x = int(country_name)
+  Here Python can not convert "INDIA" to Integer, we will get an "Value" Error.
+  - Ex:
+  num = "125"
+  num2 = int(num)
+  num3 = float(num)
+  print(num2) # Output: 125
+  print(num3) # Output: 125.0
