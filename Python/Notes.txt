@@ -175,3 +175,33 @@ Operators in Python
     - Ex:
     x = 2**4
     print(x) # OP - 16
+
+Conditionals in Python
+
+- if Statement
+  - The if Statement evaluates evaluates the Boolean expression.
+  - If the Boolean expression is True, then the if Statement is executed!
+  - Syntax:
+    if boolean_expresssion:
+      statement 1
+      statement 2
+
+- if ... else Statement
+  - The if ... else statement provides an else block combined with the if statement which is executed in the false case of the condition.
+  - Syntax:
+    if boolean_expresssion:
+      statement(s)
+    else:
+      statement(s)
+
+- if ... elif ... else Statement
+  - It allows us to make a choice from more than two options, we can use the elif part in the if ... eles statement.
+  - Syntax:
+    if boolean_expresssion:
+      statement(s)
+    elif:
+      statement(s)
+    else:
+      statement(s)
+
+NB: There can be 0 or more elif parts. By the way, elif is the short form for else if.
