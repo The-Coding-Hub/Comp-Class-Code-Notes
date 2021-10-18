@@ -133,3 +133,28 @@ HSL:
 -> Saturation: It takes value in percentage in which 100% represents fully saturated (No Gray Shade!, 50% represents 50% Grey, but the color is still visible and 0% represents fully unsaturated means completely grey and the color is invisible.)
 -> Lightness: It can be defined as the light that we want to provide the color. Here 0% means black (There is no light!), 50% represents neither dark nor light and 100% represents white (Full Lightness).
 -> By default Saturation and Lightness are 0%.
+
+
+CSS Borders:
+-> The border property is used to set the border on an element.
+-> It specifies style, color and size.
+-> border-style: It is used to specify the border type. 
+-> border-color: We can specify the border color in three ways. i.e Color Name, RGB Name and Hexadecimal Name
+-> border-width: It is used to set the border's width. It is set in pixels. It has three predefined values called 'thin', 'thick' and 'medium'.
+-> border-radius: It sets the rounded border and sets the rounded corners around and element tags. It defines the radius of the corners of the borders.
+-> There are four properties:
+	i) border-top-left-radius: Border Radius for Top Left Corner
+	ii) border-top-right-radius: Border Radius for Top Right Corner
+	iii) border-bottom-left-radius: Border Radius for Bottom Left Corner
+	iv) border-bottom-right-radius: Border Radius for Bottom Right Corner
+
+	Ex:
+	i) border-radius: 20px;
+	Sets border radius as 20px for all corners.
+	ii) border-radius: 20% 10%;
+	Sets 20% for Top Left and Bottom Right Corner and Sets 10% Top Right and Bottom Left Corner.
+	iii) border-radius: 10% 20% 30%;
+	Sets 10% for Top Left Corner, 20% for Top Right and Bottom Left Corner and 30% for Bottom Right Corner.
+	iv) border-radius: 10% 20% 30% 40%;
+	Sets 10% for Top Left Corner, 20% for Top Right Corner, 30% for Bottom Right Corner and 40% Bottom Left Corner.
+-> Percentage: It denotes the size of the radius in percentage. It doesn't allow negative value.

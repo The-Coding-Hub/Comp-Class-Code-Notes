@@ -118,3 +118,60 @@ Typecasting in Python
   num3 = float(num)
   print(num2) # Output: 125
   print(num3) # Output: 125.0
+
+Operators in Python
+- An Operatoris a special symbol that carries out arithmetic or login computation.
+1) Arithmetic Operator:
+  - These are the operators used for performing arithmetic operations.
+  - (+) Operator: 
+    - The + Operator is used to add 2 operands (data).
+    - The + Operator is also used to Concatenate 2 Strings.
+    - Ex:
+    x = 'Satwik'
+    y = 'Patnaik'
+    name = x + ' ' + y
+    print(name) # OP - Satwik Patnaik
+  - (-) Operator:
+    - It is used to subtract the right operand from the left.
+    - Ex:
+    x = 10
+    y = 5
+    sub = x - y
+    print(sub) # OP - 5
+  - (*) Operator:
+    - It is used to multiply 2 operands.
+    - Ex:
+    x = 10
+    y = 5
+    pro = x*y
+    print(pro) # OP - 50
+    - It is also used to repeat Strings.
+    - Ex:
+    x = 15
+    y = 3
+    pro = x*y
+    print(pro) # OP - 45
+    - Ex:
+    x = 'Satwik'
+    y = x*'3'
+    print(y) # OP - TypeError
+  - (/) Operator:
+    - The (/) Operator is used to divide left operand by the right one.
+    - Ex:
+    x = 15/3
+    print(x) # OP - 5
+    - The (//)->Integer Devision Operator is used to get only the Integer Part of the Answer.
+    - Ex:
+    x = 13
+    y = 3
+    print(x//y) # OP - 4
+  - (%) Operator:
+    - The Modulus Operator (%) gives remainder of Division.
+    - Ex:
+    x = 13 % 5
+    print(x)
+  - (**) Operator:
+    - The Exponent Operator (**) raises the left operand to the power of the right.
+    - Ex:
+    x = 2**4
+    print(x) # OP - 16
