@@ -1,3 +1,5 @@
+# Enter marks of a student and print grade.
+
 marks = int(input("Marks: "))
 grade = None
 
