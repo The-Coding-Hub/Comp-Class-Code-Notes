@@ -158,3 +158,25 @@ CSS Borders:
 	iv) border-radius: 10% 20% 30% 40%;
 	Sets 10% for Top Left Corner, 20% for Top Right Corner, 30% for Bottom Right Corner and 40% Bottom Left Corner.
 -> Percentage: It denotes the size of the radius in percentage. It doesn't allow negative value.
+
+CSS Cursors:
+-> It is used to define the type of Mouse Cursor when the Mouse Pointer is on the Element. 1) no-drop: It is used to represent that the dragged item cannot be dropped here.
+2) wait: It represents an hourglass.
+3) url: It indicates the source of the cursor image file.
+4) alias: It is used to display the indication of the cursor of something that is to be created.
+5) auto: It is the default property in which browser sets the cursor.
+6) all-scroll: It indicates the scrolling.
+7) col-resize: Here, the cursor will represent that the column can be horizontally resized.
+8) cell: The cursor will represent that a cell or the collection of cells is selected.
+9) context-menu: It indicates the availability of the context menu.
+10) default: It indicates an arrow which is the default cursor.
+11) copy: It is used to indicate that something is copied.
+12) crosshair: The cursor changes to the crosshair or te plus sign.
+13) e-resize: It represents the east direction and indicates that the edge of the box is to be shifted towards right.
+14) ew-resize: It represents the east-west direction and indicates a bidirectional resize cursor.
+15) n-resize: It represents the north direction that indicates that the edge of the boz is to be shifted to up.
+16) ne-resize: It represents the north-east direction and indicates that the edge of the box is to shifted towards up and right.
+17) move: It indicates that something is to be shifted.
+18) help: It is in the form of question mark or balloon, which represents that help is available.
+19) None: It indicates that no cursor is rendered for the element.
+20) no-drop: It represents dragged item can not be dropped here.

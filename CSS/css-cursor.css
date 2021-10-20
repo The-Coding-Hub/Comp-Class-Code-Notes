@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+div {
+  border: 2px solid red;
+  padding: 20px;
+  height: auto;
+}
+.alias {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: alias;
+}
+.all-scroll {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: all-scroll;
+}
+.auto {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: auto;
+}
+.cell {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: cell;
+}
+.context-menu {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: context-menu;
+}
+.col-resize {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: col-resize;
+}
+.copy {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: copy;
+}
+.crosshair {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: crosshair;
+}
+.default {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: default;
+}
+.e-resize {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: e-resize;
+}
+.ew-resize {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: ew-resize;
+}
+.grab {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: grab;
+}
+.grabbing {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: grabbing;
+}
+.help {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: help;
+}
+.move {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: move;
+}
+.n-resize {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: n-resize;
+}
+.ne-resize {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: ne-resize;
+}
+.nesw-resize {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: nesw-resize;
+}
+.ns-resize {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: ns-resize;
+}
+.nw-resize {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: nw-resize;
+}
+.nwse-resize {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: nwse-resize;
+}
+.no-drop {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: no-drop;
+}
+.none {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: none;
+}
+.not-allowed {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: not-allowed;
+}
+.pointer {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.progress {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: progress;
+}
+.row-resize {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: row-resize;
+}
+.s-resize {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: s-resize;
+}
+.se-resize {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: se-resize;
+}
+.sw-resize {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: sw-resize;
+}
+.text {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: text;
+}
+.url {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: url("https://the-coding-hub.herokuapp.com/Static/images/logo.png"),
+    auto;
+}
+.w-resize {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: w-resize;
+}
+.wait {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: wait;
+}
+.zoom-in {
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+  cursor: zoom-in;
+}
+.zoom-out {
+  cursor: zoom-out;
+  border: 2px solid grey;
+  margin: 4px;
+  border-radius: 10px;
+}
