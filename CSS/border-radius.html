@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Border Radius in CSS</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: tomato;
+      text-align: center;
+    }
+    .h1 {
+      font-size: 3rem;
+    }
+    .sampleDiv {
+      width: 600px;
+      display: block;
+      margin: auto;
+      padding: 20px;
+
+      /* Borders */
+      border: 8px solid grey;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 30px;
+      border-bottom-left-radius: 35px;
+
+      /* border: 20px; 
+      The above line is set for all corners of the container. */
+    }
+  </style>
+</head>
+<body>
+  <h1 class="h1">Border Radius in CSS</h1>
+  <div class="sampleDiv">
+    <h2 class="h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, magni!</h2>
+    <p class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus tempore iure nostrum, totam quas nam impedit officiis! Saepe deserunt atque ipsam nemo magni animi quisquam. Atque dignissimos nihil odit ea ipsa sed cupiditate, dolorem, repellendus obcaecati impedit at. Pariatur hic et cupiditate. Aliquam quae iure aliquid impedit laudantium neque hic.</p>
+  </div>
+</body>
+</html>
