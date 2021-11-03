@@ -205,3 +205,18 @@ Conditionals in Python
       statement(s)
 
 NB: There can be 0 or more elif parts. By the way, elif is the short form for else if.
+
+Loop in Python
+- While Loop in Python
+  - In programming, a loop is used to repeat a block of code as long as the Boolean Expression is True.
+  - It is an entry controlled loop.
+  - Syntax
+  while Bool:
+    code
+    increment/decrement
+  - Infinite While Loop
+  In this case the body of the while loop is executed endlessly. A loop that never terminates is called an Infinite Loop.
+
+While Loop with Else:
+- In Python a while loop can have an optional else block.
+- The else part is executed after the condition in the while loop evaluates to false

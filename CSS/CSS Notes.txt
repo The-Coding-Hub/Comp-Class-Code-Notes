@@ -180,3 +180,12 @@ CSS Cursors:
 18) help: It is in the form of question mark or balloon, which represents that help is available.
 19) None: It indicates that no cursor is rendered for the element.
 20) no-drop: It represents dragged item can not be dropped here.
+
+Google Fonts:-
+- Google Font is Google's Online Font Library.
+- Google allows us to use font through the Content Delivery Network (CDN).
+- It is an open source application.
+
+CSS Buttons:-
+- In HTML we use the button tag to create a button, but by using CSS property we can style the buttons. 
+- It helps us to create to create user interaction and event processing.

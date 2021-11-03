@@ -1,0 +1,18 @@
+Operating System:-
+- Every Computer System must have atleast.
+- One Operating System to run other programs.
+- An Operating System is a system software that acts as an interface between computer hardware and the user.
+- Operating System were first developed in the late 1950s to manage tape storage.
+- The General Motors Research Lab implemented the first OS in the early 1950s for their IMB-701.
+- In the mid 1960s Operating System started to use DISKs.
+- In the late 1960s the first version of the UNIX Operating System was developed. 
+- Examples:
+  Windows
+  Android
+  iOS
+  MacOS
+  Linux
+  Chrome OS
+
+Functions:-
+Memory Management:
