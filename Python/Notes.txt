@@ -217,6 +217,20 @@ Loop in Python
   - Infinite While Loop
   In this case the body of the while loop is executed endlessly. A loop that never terminates is called an Infinite Loop.
 
-While Loop with Else:
-- In Python a while loop can have an optional else block.
-- The else part is executed after the condition in the while loop evaluates to false
+- While Loop with Else:
+  - In Python a while loop can have an optional else block.
+  - The else part is executed after the condition in the while loop evaluates to false.
+
+- For Loop in Python:
+  - The For Loop is used to itereate over a sequence or other iterable objects.
+  - Syntax
+  for variable_1 in variable_2:
+    code
+  - Sequences:
+    1. String: A String is a sequence of characters.
+    2. List: A List is a sequence of items separated by commas(,) and enclosed between square brackets. We can store any type of data in a List. Ex: l_1 = [10, "INDIA", 11.2]
+    3. range(): It is used to create a sequence of numbers.
+
+- For Loop with Else:
+  - Similar to While Loop, a For Loop can also have a else block. 
+  - After completion of for Loop, the else block will be executed.

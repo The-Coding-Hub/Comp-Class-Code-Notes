@@ -9,7 +9,7 @@ while i <= n:
   # print("I am a Disco Dancer!")
   # i -= 1
 
-# Infitie Loop Ex 2
+# Infinite Loop Ex 2
 # while True:
   # print("I am a Disco Dancer!")
 
