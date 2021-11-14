@@ -220,7 +220,6 @@ Loop in Python
 - While Loop with Else:
   - In Python a while loop can have an optional else block.
   - The else part is executed after the condition in the while loop evaluates to false.
-
 - For Loop in Python:
   - The For Loop is used to itereate over a sequence or other iterable objects.
   - Syntax
@@ -234,3 +233,35 @@ Loop in Python
 - For Loop with Else:
   - Similar to While Loop, a For Loop can also have a else block. 
   - After completion of for Loop, the else block will be executed.
+
+Break Statement in Python:
+- We know loop iterate over a block of code until the test expression is false.
+- With the help of break statement we can terminate the immediately without taking the test expression.
+
+Continue Statement in Python:
+- The continue statement is used to skip the rest of the code inside the loop for the current iteration only.
+- Loop does not terminate but continues on with the next iteration.
+
+Pass Statement in Python:
+- Suppose we have a loop or a function that is not implemented yet, but we want to implement it in the future.
+- It can not have an empty body otherwise the interpreter would complain.
+
+Collections of Data Types:
+- So far we have used simple datatypes like int, float and boolean.
+- Python supports various sequence and collection data types.
+
+Python LISTS:
+- It is an ordered collection.
+- It is one of the frequently used and versatile data type in Python.
+- A List is created by placing items in side square brackets ([]).
+- It is mutable. Mutable object means the object can be modified with same address.
+
+NOTE: Integer is immutable object. Once object ready we can not modify it. (New Object Created in another location and the existing object deleted.)
+
+- A List can have any number of items and these items may be of different types like int, float, str.
+- Also a list can even have another list as an item.
+
+Empty List:
+- The list withgout any element is called empty list.
+
+- We can access the elements fron the list with the help of index value.
